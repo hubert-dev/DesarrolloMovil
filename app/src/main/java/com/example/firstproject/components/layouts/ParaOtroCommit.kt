@@ -10,8 +10,9 @@ import androidx.compose.ui.graphics.Color
 @Composable
 
 fun ParaOtroCommit(texto : String) {
-    Box(modifier =  Modifier.background(Color.Cyan)) {
+    Box(modifier =  Modifier.background(Color.Red)) {
         Text("$texto")
+        Text("Modificando esto par probar con otro commit con la rama main")
 
     }
 }
