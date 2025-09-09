@@ -14,6 +14,7 @@ import androidx.compose.ui.tooling.preview.Preview
 import com.example.firstproject.components.layouts.MyBox
 import com.example.firstproject.components.layouts.MyColumn
 import com.example.firstproject.components.layouts.MyReto
+import com.example.firstproject.components.layouts.ParaCommit
 import com.example.firstproject.ui.theme.FirstProjectTheme
 
 class MainActivity : ComponentActivity() {
@@ -23,7 +24,8 @@ class MainActivity : ComponentActivity() {
         setContent {
             FirstProjectTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-                    MyReto(Modifier.padding(innerPadding))
+
+                    ParaCommit(modifier = Modifier.padding(innerPadding))
                 }
             }
         }
