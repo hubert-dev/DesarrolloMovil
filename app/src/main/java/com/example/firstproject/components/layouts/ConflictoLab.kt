@@ -6,6 +6,6 @@ import androidx.compose.runtime.Composable
 @Composable
 
 fun ConflictoLab() {
-    //Huber Lope - modificador
-    Text(text = "Probando conflictos")
+    //HL - modificado por Mercy Janampa
+    Text(text = "Arreglando conflictos")
 }
