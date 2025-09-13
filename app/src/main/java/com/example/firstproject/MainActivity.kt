@@ -11,6 +11,8 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
+import com.example.firstproject.components.layouts.AnimalList
+import com.example.firstproject.components.layouts.MovieCounter
 import com.example.firstproject.components.layouts.MyBox
 import com.example.firstproject.components.layouts.MyColumn
 import com.example.firstproject.components.layouts.MyReto
@@ -24,8 +26,8 @@ class MainActivity : ComponentActivity() {
         setContent {
             FirstProjectTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-
-                    ParaCommit(modifier = Modifier.padding(innerPadding))
+                    AnimalList(modifier = Modifier.padding(innerPadding))
+//                    MovieCounter(modifier = Modifier.padding(innerPadding))
                 }
             }
         }
